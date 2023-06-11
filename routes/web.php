@@ -14,7 +14,7 @@ use App\Http\Controllers\Guest\MoviesController as MoviesController;
 |
 */
 
-Route::get('/', function () {
+Route::get('/Home', function () {
 
     return view('pages.home');
 
