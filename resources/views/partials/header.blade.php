@@ -5,5 +5,10 @@
                 Home
             </a>
         </li>
+        <li>
+            <a href="{{ route('movies') }}">
+                Movies
+            </a>
+        </li>
     </nav>
 </header>

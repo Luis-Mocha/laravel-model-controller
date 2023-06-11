@@ -9,6 +9,6 @@ class PageController extends Controller
 {
     public function getMovies() {
         // echo 'heheheh';
-        return view('pages.home');
+        return view('pages.movies');
     }
 }
