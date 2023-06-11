@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\Guest\PageController as PageController;
+use App\Http\Controllers\Guest\MoviesController as MoviesController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,4 +20,4 @@ Route::get('/', function () {
 
 })->name('home');
 
-Route::get('/Movies', [PageController::class, 'getMovies'])->name('movies');
+Route::get('/Movies', [MoviesController::class, 'getMovies'])->name('movies');
